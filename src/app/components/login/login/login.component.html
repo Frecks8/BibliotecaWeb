@@ -1,0 +1,18 @@
+<div class="card" style="width: 18rem;">
+    <i class="bi bi-person" style="font-size: 100px;"></i>
+    <div class="card-body">
+      <form [formGroup]="userForm">
+        <h5 class="card-title">Biblioteca Web</h5>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="name">
+        <label for="floatingInput">User</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" formControlName="password">
+        <label for="floatingPassword">Password</label>
+      </div>
+
+      <button (click)="prueba()">INGRESAR</button>
+      </form>
+    </div>
+  </div>
