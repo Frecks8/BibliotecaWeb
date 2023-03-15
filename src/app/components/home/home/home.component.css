@@ -1,0 +1,95 @@
+.user-popup{
+    margin: 0 auto;
+    margin-left: 6%;
+    text-align: center;
+}
+.userIcon{
+    font-size: 35px;
+}
+.circle-button{
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 18px;
+    padding: 1%;
+    border: 0px;
+    background-color:darkgray;
+}
+.circle-button:hover{
+    background-color: rgb(142, 142, 142);
+}
+.sideMenu{
+    margin: 5px 25px 0px 15px;
+}
+.sidebtn{
+    font-size: 25px;
+    color: whitesmoke;
+    border-radius: 20%;
+}
+
+.footer {
+    /* background-color: black; */
+    color: white;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .footerContent{
+    background-color: black;
+    height: 50px;
+  }
+  .logo{
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+  }
+  .titulo{
+    color:whitesmoke; 
+    margin-left: 5px; 
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .header-logo{
+    margin-top: 5px;
+  }
+  .nav-link{
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+    margin: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+  }
+  .nav-link:hover{
+    background-size: 100% 2px;
+  }
+  .mochila-img{
+    width: 30px;
+    height: 30px;
+  }
+  .separador{
+    margin: 10px;
+    border: 1px solid whitesmoke;
+    height: 20px;
+  }
+  .info-user{
+    color: whitesmoke;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .info-user:hover{
+    text-decoration: underline;
+  }
+  .btn{
+    color: whitesmoke;
+  }
+  .btn:hover{
+    color: black;
+    background-color: whitesmoke;
+  }

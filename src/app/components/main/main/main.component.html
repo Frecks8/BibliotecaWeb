@@ -1,1 +1,28 @@
-<p>main works!</p>
+<mat-drawer-container class="drawer-container" [hasBackdrop]="true">
+    <mat-drawer #drawer mode="over" class="sidenav" [opened]="showSidebar">
+        
+      <ul class="ul-list">
+        <li class="list"> <i class="bi bi-chevron-double-right"></i> FISICA</li>
+        <li class="list"> <i class="bi bi-chevron-double-right"></i> MATEMATICAS</li>
+        <li class="list"> <i class="bi bi-chevron-double-right"></i> ELECTRONICA</li>
+        <li class="list"> <i class="bi bi-chevron-double-right"></i> BIOMEDICA</li>
+      </ul>
+
+    </mat-drawer>
+
+    <mat-drawer-content>
+      <h1 style="color:white">prueba</h1>
+      <p (mouseover)="highlight($event)" (mouseleave)="removeHighlight($event)" (click)="talk($event)">
+        Este es un ejemplo de texto que será resaltado y leído en voz alta.
+      </p>
+      
+      <button (click)="speak()">Habla</button>
+      <button (click)="pause()">Pausar</button>
+      <button (click)="resume()">Reanudar</button>
+      <!-- <button type="button" mat-button (click)="drawer.toggle()">
+        Toggle sidenav
+      </button> -->
+    </mat-drawer-content>
+    
+  </mat-drawer-container>
+  
